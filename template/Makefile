@@ -5,4 +5,4 @@ all: main.cpp
 	g++ main.cpp -o main -I. -I${SC_INCLUDE} -L${SC_LIB} -lsystemc
 
 clean:
-	rm -f main
+	rm -f main *.vcd
